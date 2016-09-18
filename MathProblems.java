@@ -28,6 +28,7 @@ public class MathProblems {
     public static void main(String[] args) 
     {
         Scanner in = new Scanner(System.in);
+        System.out.println("Type in a number to see if it's prime!");
         System.out.println(isPrime(in.nextInt()));
     }
     
